@@ -305,7 +305,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BMNetWork_Example/Pods-BMNetWork_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BMNetWork_Example/Pods-BMNetWork_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BMNetWork/BMNetWork.framework",
 			);
@@ -316,7 +316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMNetWork_Example/Pods-BMNetWork_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMNetWork_Example/Pods-BMNetWork_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		29A57095FB52B1D145897F65 /* [CP] Check Pods Manifest.lock */ = {

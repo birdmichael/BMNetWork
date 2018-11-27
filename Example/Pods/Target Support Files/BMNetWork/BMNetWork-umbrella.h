@@ -10,7 +10,16 @@
 #endif
 #endif
 
+#import "BMBatchRequest.h"
+#import "BMBatchRequestAgent.h"
+#import "BMGeneralRequest.h"
 #import "BMNetwork.h"
+#import "BMNetworkAgent.h"
+#import "BMNetworkCache.h"
+#import "BMNetworkConfig.h"
+#import "BMNetworkPrivate.h"
+#import "BMRequest.h"
+#import "BMRequestProtocol.h"
 
 FOUNDATION_EXPORT double BMNetWorkVersionNumber;
 FOUNDATION_EXPORT const unsigned char BMNetWorkVersionString[];

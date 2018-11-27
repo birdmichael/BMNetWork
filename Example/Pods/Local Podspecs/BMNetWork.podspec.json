@@ -18,8 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BMNetWork/Classes/BMNetWork/**/*",
-  "public_header_files": "BMNetWork/Classes/**/BMNetwork.h",
+  "source_files": "BMNetWork/Classes/**/*.{h,m}",
+  "public_header_files": "BMNetWork/Classes/**/*.h",
   "requires_arc": true,
   "dependencies": {
     "AFNetworking": [

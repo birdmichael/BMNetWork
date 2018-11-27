@@ -29,9 +29,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BMNetWork/Classes/BMNetWork/**/*'
-  
-  s.public_header_files = 'BMNetWork/Classes/**/BMNetwork.h'
+  s.source_files  = 'BMNetWork/Classes/**/*.{h,m}'
+  s.public_header_files = 'BMNetWork/Classes/**/*.h'
   
   s.requires_arc = true
   
