@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A network lib based on AFNetworking.
                        DESC
 
   s.homepage         = 'https://github.com/birdmichael/BMNetWork'
@@ -27,11 +27,15 @@ TODO: Add long description of the pod here.
   s.author           = { 'birdmichael' => '229953445@qq.com' }
   s.source           = { :git => 'https://github.com/birdmichael/BMNetWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BMNetWork/Classes/**/*'
   
+  s.public_header_files = 'BMNetWork/Classes/**/BMNetwork.h'
+  
+  s.requires_arc = true
+  
+  s.dependency 'AFNetworking', '~> 3.0'
   # s.resource_bundles = {
   #   'BMNetWork' => ['BMNetWork/Assets/*.png']
   # }

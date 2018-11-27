@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'BMNetWork_Example' do
   pod 'BMNetWork', :path => '../'
+  pod 'AFNetworking', '~> 3.0'
 
   target 'BMNetWork_Tests' do
     inherit! :search_paths

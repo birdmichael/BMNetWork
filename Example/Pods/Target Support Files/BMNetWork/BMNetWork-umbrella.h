@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BMNetwork.h"
 
 FOUNDATION_EXPORT double BMNetWorkVersionNumber;
 FOUNDATION_EXPORT const unsigned char BMNetWorkVersionString[];
