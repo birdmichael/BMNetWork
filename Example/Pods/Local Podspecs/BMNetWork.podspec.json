@@ -1,6 +1,6 @@
 {
   "name": "BMNetWork",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of BMNetWork.",
   "description": "A network lib based on AFNetworking.",
   "homepage": "https://github.com/birdmichael/BMNetWork",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/birdmichael/BMNetWork.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BMNetWork/Classes/**/*",
+  "source_files": "BMNetWork/Classes/BMNetWork/**/*",
   "public_header_files": "BMNetWork/Classes/**/BMNetwork.h",
   "requires_arc": true,
   "dependencies": {

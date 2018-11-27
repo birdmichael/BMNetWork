@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BMNetWork (0.1.0):
+  - BMNetWork (0.1.1):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BMNetWork: ef0570b3d2cbc31fea0f8ca73bee6219b65e3c09
+  BMNetWork: 0046dcb7de44fbba89a99c0d9bb31314e59e2b53
 
 PODFILE CHECKSUM: 7502596d6f46951f511be6fb4277e72e14cfcfcf
 
