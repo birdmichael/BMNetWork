@@ -1,0 +1,6 @@
+framework module BMNetWork {
+  umbrella header "BMNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

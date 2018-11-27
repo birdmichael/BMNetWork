@@ -1,0 +1,16 @@
+PODS:
+  - BMNetWork (0.1.0)
+
+DEPENDENCIES:
+  - BMNetWork (from `../`)
+
+EXTERNAL SOURCES:
+  BMNetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BMNetWork: 5273801a5d0eaa4e8cfd93cffedc54bb4ffce789
+
+PODFILE CHECKSUM: d15e90f33a170b3e4b0c383a49a307aa81025b70
+
+COCOAPODS: 1.5.3
