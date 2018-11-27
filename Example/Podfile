@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BMNetWork_Example' do
+  pod 'BMNetWork', :path => '../'
+
+  target 'BMNetWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
